@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int e=6999,f=4999;
+    printf("substraction is=%d\n",e-f);
+    printf("addition is=%d\n",e+f);
+    printf("multiplication is=%d\n",e*f);
+    printf("division is=%d\n",e/f);
+    printf("modulo is=%d\n",e%f);
+    return 0;
+}
