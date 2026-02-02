@@ -1,7 +1,0 @@
-#include<stdio.h>
-int main()
-{
-    int e=6999,f=4999;
-    printf("addition is=%d\n",e+f);
-    return 0;
-}
