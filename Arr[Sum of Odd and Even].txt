@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int a[10] = {1,2,3,4,5,6,7,8,9,10};
+    int i, sum = 0, sume = 0;
+    int x, y;
+    int *p = a;
+    for(i = 0; i < 4; i++)
+    {
+        x = *p;
+        sum = sum + x;
+        p++;   // move pointer forward
+    }
+    
+    p = p+2;
+
+    for(i = 0; i < 4; i++)
+    {
+        y = *p;
+        sume = sume + y;
+        p++;   
+    }
+
+    printf("%d %d", sum, sume);
+
+    return 0;
+}
